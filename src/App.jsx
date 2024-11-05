@@ -6,6 +6,8 @@ import Dashboard from './Pages/Dashboard';
 
 import './App.css';
 
+// HOla locas maten a su profe
+
 const App = () => {
     return (
         <Router>
