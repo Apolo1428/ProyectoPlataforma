@@ -59,12 +59,14 @@ const SchedulePayment = () => {
           value={company}
           onChange={(e) => setCompany(e.target.value)}
         />
+        <br></br>
         <input
           type="number"
           placeholder="Monto a Pagar (USDT)"
           value={amount}
           onChange={(e) => setAmount(e.target.value)}
         />
+        <br></br>
         <input
           type="text"
           placeholder="Servicio a Realizar"
