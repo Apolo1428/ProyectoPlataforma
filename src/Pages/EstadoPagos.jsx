@@ -1,10 +1,10 @@
 import * as anchor from "@project-serum/anchor";
 import { Connection, PublicKey } from "@solana/web3.js";
 import { useEffect, useState } from "react";
-import idl from "./idl.json";  // Archivo IDL generado por Anchor
+import idl from "./idl.json"; 
 import { sendTransaction } from "./sendTransaction";
 
-const PROGRAM_ID = new PublicKey("YourProgramIDHere");  // Coloca el Program ID aquí
+const PROGRAM_ID = new PublicKey("Fo59t3KKoeP89YRhr1JwriFC796RKskdD1GVBPiUUFWN"); 
 const network = "https://api.devnet.solana.com";
 
 const EstadoPagos = () => {
