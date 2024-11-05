@@ -6,9 +6,10 @@ import Dashboard from './Pages/Dashboard';
 
 import './App.css';
 
-// HOla locas maten a su profe
+// mensaje de prueba
 
 const App = () => {
+    const a = 0;
     return (
         <Router>
           <div> 
@@ -20,6 +21,7 @@ const App = () => {
                         <Route path="/Dashboard" element={<Dashboard />} />
                     </Routes>
                 </div>
+
           </div>
         </Router>
     );
