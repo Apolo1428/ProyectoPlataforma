@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::token::{self, Token, TokenAccount, Transfer};
 
-declare_id!("BPFLoaderUpgradeab1e11111111111111111111111"); // Cambia esto por tu programa id
+declare_id!("BPFLoaderUpgradeab1e11111111111111111111111");
 
 #[program]
 pub mod payment_contract {
